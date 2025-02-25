@@ -1,0 +1,44 @@
+.nav-top {
+    position: relative;
+    padding: 10px;
+    top: 0;
+    background-color: black;
+}
+.nav-top ul{
+    padding: 0px 48px;
+    margin: 0;
+    margin-left: 235px;
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+}
+
+.nav-top li {
+    color: white;
+}
+
+.nav-top a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.nav-buttom {
+    color: black;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.nav-buttom ul {
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav-buttom img {
+    width: 100%;
+    max-width: 45%;
+}
