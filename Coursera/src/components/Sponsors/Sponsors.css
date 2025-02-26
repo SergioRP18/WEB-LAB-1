@@ -1,0 +1,23 @@
+.container {
+    box-sizing: border-box;
+    background-color: white;
+    display: block;
+    position: relative;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 48px;
+}
+
+.text-content {
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.elements h2 {
+    margin: 0;
+    font-size: 30px;
+    display: block;
+    
+}

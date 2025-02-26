@@ -1,9 +1,60 @@
 .container {
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(240, 246, 255);
+    color: rgb(15, 17, 20);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.content-banner {
+    box-sizing: border-box;
+    color: rgb(15, 17, 20);
     display: flex;
     flex-wrap: wrap;
+    padding: 0px 48px;
+}
+
+.right-content {
     box-sizing: border-box;
+    color: rgb(15, 17, 20);
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    flex-grow: 0;
+    padding: 0px 24px 0px 0px;
 }
 
 .content-image img {
+    width: 70%;
+}
+
+.content-image {
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: row;
+    flex-grow: 0;
+
+}
+
+.logo-icon {
     width: 50%;
+    margin: 0px 0px 12px;
+}
+
+.title-banner {
+    color: black;
+}
+
+.content-text {
+    color: black;
+}
+
+#start-free {
+    background-color: #0056d2;
+    color: white;
+    padding: 12px 24px;
+    margin: 16px 0px 0px;
+    font-weight: bolder;
 }
