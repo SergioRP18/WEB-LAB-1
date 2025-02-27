@@ -1,3 +1,7 @@
+nav {
+    background-color: white;
+}
+
 .nav-top {
     position: relative;
     padding: 10px;
@@ -24,10 +28,10 @@
 }
 
 .nav-buttom {
+    display: flex;
     color: black;
     align-items: center;
-    background-color: white;
-    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgba(117, 117, 117, 0.5);
 }
 
 .nav-buttom ul {
@@ -41,4 +45,23 @@
 .nav-buttom img {
     width: 100%;
     max-width: 45%;
+}
+
+input {
+    padding-inline: 16px;
+    border-radius: 24px;
+    border: 1px solid #dbe0e1;
+    color: #63676b;
+    height: 44px;
+    width: 350px;
+    line-height: 24px;
+}
+
+.right li {
+    gap: 1rem;
+}
+
+.right p {
+    font-size: 14px;
+    color: #63676b;
 }

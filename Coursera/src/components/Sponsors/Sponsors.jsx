@@ -2,11 +2,11 @@ import "./Sponsors.css"
 
 const Brands = () => {
     return (
-        <div className="container">
+        <div className="container-sponsors">
             <div className="content">
                 <div className="text-content">
                     <div className="elements">
-                        <h2>Learn from 350+ top universities and companies</h2>
+                        <h2 className="title-sponsors">Learn from 350+ top universities and companies</h2>
                         <div className="icons">
                             <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/94d374b55f8a5d9bfbaaf42a578f7ac5.png?auto=format%2Ccompress&dpr=1" alt="" />
                             <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/images/2fe47744cde1a0e41e409bf488e98027.png?auto=format%2Ccompress&dpr=1" alt="" />

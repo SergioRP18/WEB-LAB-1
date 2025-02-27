@@ -1,13 +1,17 @@
-.container {
+.container-sponsors {
+    width: calc(70% - 40px);
+    margin-left: 170px;
+    flex-direction: row;
     box-sizing: border-box;
     background-color: white;
-    display: block;
+    display: flex;
     position: relative;
 }
 
 .content {
     box-sizing: border-box;
     padding: 48px;
+    margin: 0px 45.5px;
 }
 
 .text-content {
@@ -15,9 +19,30 @@
     padding: 16px;
 }
 
+.title-sponsors {
+    color: black;
+}
+
 .elements h2 {
-    margin: 0;
     font-size: 30px;
-    display: block;
+    display: flex;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     
+}
+
+.elements .icons {
+    display: grid;
+    margin: 24px 0px 0px;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.icons img {
+    width: 100%;
 }
