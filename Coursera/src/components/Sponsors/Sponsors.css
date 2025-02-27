@@ -1,5 +1,5 @@
 .container-sponsors {
-    width: calc(70% - 40px);
+    width: calc(80% - 20px);
     margin-left: 170px;
     flex-direction: row;
     box-sizing: border-box;

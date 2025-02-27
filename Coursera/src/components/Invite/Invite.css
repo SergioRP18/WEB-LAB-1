@@ -1,0 +1,14 @@
+.content-invite {
+    display: block;
+    background-color: #0056d2;
+    padding: 20px;
+}
+
+.content-invite img {
+    margin-top: 45px;
+    width: 15%;
+}
+
+.content-invite .white-button {
+    color: white;
+}

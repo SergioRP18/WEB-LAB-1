@@ -1,10 +1,12 @@
 import './Button1.css'
 
-function Button1() {
+function Button1({txtbutton1}) {
     return(
-        <button>
-            Explore
-        </button>
+        <div id='background'>
+            <button>
+                {txtbutton1}
+            </button>
+        </div> 
     )
 };
 
